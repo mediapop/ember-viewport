@@ -1,5 +1,7 @@
 # ember-viewport
 
+*This ember addon is maintained by [Media Pop](https://www.mediapop.co), a software consultancy. Hire us to solve your web application challenges.*
+
 Provides a `viewport` service and inserts accurate faux-viewport units into CSS variable `--vh`.
 
 ```css
