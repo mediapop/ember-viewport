@@ -1,4 +1,4 @@
 :root {
   --vh: 1vh;
-  --vw: 1vw; // vw is always accurate and is provided for consistency.
+  --vw: 1vw; /* vw is always accurate and is provided for consistency. */
 }

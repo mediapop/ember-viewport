@@ -3,12 +3,12 @@
 Provides a `viewport` service and inserts accurate faux-viewport units into CSS variable `--vh`.
 
 ```css
-// Before
+/* Before */
 .full-height {
   height: 100vh; // Inaccurate on mobile
 }
 
-// After
+/* After */
 .full-height {
   height: calc(--vh * 100);
 }
