@@ -13,7 +13,7 @@ export default Service.extend({
       document.documentElement.style.setProperty('--vh', `calc(${window.innerHeight}px / 100)`);
     }
 
-    if(document && window){
+    if(typeof document !== 'undefined' && typeof window !== 'undefined' ){
       this.resize.on('didResize', updateViewport.bind(this));
       updateViewport.call(this);
     }
