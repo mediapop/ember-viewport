@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.accurate-full-height {
+  height: calc(var(--vh) * 100);
+}
+
+.inaccurate-full-height {
+  height: 100vh;
+}
+
+.example-wrapper {
+  display: flex;
+}
+
+.example-wrapper > div{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.example-wrapper > div > div{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+.example-wrapper > div > div {
+  background: #00aabe;
+}
+
+.example-wrapper > div > div:nth-child(2n) {
+  background: #00d09e;
+}

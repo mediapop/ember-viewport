@@ -1,12 +1,33 @@
 # ember-viewport
 
-This README outlines the details of collaborating on this Ember addon.
+Provides a `viewport` service and inserts accurate faux-viewport units into CSS variable `--vh`.
+
+```css
+// Before
+.full-height {
+  height: 100vh; // Inaccurate on mobile
+}
+
+// After
+.full-height {
+  height: calc(--vh * 100);
+}
+```
+
+It can also be used as a service:
+
+```js
+export default Component.create({
+  viewport: service(),
+  someProperty: computed('viewport.height', function(){
+    return this.viewport.height / 2;
+  })
+});
+```
 
 ## Installation
 
-* `git clone <repository-url>` this repository
-* `cd ember-viewport`
-* `npm install`
+* `ember install ember-viewport`
 
 ## Running
 
