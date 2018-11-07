@@ -5,12 +5,11 @@ export default Service.extend({
   resize: service(),
   init() {
     function updateViewport(){
-      this.setProperties({
-        height: window.innerHeight / 100,
-        width: window.innerWidth / 100
-      });
+      const height = window.innerHeight;
+      const width = window.innerWidth;
+      this.setProperties({height, width});
       // We don't have to update vw because it should always be accurate.
-      document.documentElement.style.setProperty('--vh', `calc(${window.innerHeight}px / 100)`);
+      document.documentElement.style.setProperty('--vh', `calc(${height}px / 100)`);
     }
 
     if(typeof document !== 'undefined' && typeof window !== 'undefined' ){
