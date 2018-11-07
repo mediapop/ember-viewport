@@ -1,5 +1,5 @@
 {
-  "name": "ember-viewport",
+  "name": "@mediapop/ember-viewport",
   "version": "0.1.0",
   "description": "Accurate vh units on mobile.",
   "keywords": [

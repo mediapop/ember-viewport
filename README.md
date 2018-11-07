@@ -29,7 +29,7 @@ export default Component.create({
 
 ## Installation
 
-* `ember install ember-viewport`
+* `ember install @mediapop/ember-viewport`
 
 ## Running
 
