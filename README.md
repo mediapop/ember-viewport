@@ -9,7 +9,7 @@ Provides a `viewport` service and inserts accurate faux-viewport units into CSS 
 ```css
 /* Before */
 .full-height {
-  height: 100vh; // Inaccurate on mobile
+  height: 100vh; /* Inaccurate on mobile */
 }
 
 /* After */
