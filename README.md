@@ -4,7 +4,7 @@
 
 [![Build Status](https://travis-ci.org/mediapop/ember-viewport.svg?branch=master)](https://travis-ci.org/mediapop/ember-viewport)
 
-Provides a `viewport` service and inserts accurate faux-viewport units into CSS variable `--vh`.
+Provides a `viewport` service and inserts accurate faux-viewport units into CSS variable `--vh`. View the [demo app](https://mediapop.github.io/ember-viewport/) on mobile.
 
 ```css
 /* Before */
