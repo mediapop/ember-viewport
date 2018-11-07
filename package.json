@@ -9,7 +9,7 @@
     "viewport",
     "mobile"
   ],
-  "repository": "mediapop/ember-viewport",
+  "repository": "https://github.com/mediapop/ember-viewport",
   "license": "MIT",
   "author": "Media Pop",
   "directories": {
