@@ -1,1 +1,1 @@
-export { default } from 'ember-viewport/services/viewport';
+export { default } from '@mediapop/ember-viewport/services/viewport';

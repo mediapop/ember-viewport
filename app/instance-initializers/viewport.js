@@ -1,1 +1,1 @@
-export { default, initialize } from 'ember-viewport/instance-initializers/viewport';
+export { default, initialize } from '@mediapop/ember-viewport/instance-initializers/viewport';
