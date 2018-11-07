@@ -8,8 +8,6 @@
 [![dependencies](https://david-dm.org/mediapop/ember-viewport/status.svg)](https://david-dm.org/poetic/ember-cli-github-pages)
 [![devDependencies](https://david-dm.org/mediapop/ember-viewport/dev-status.svg)](https://david-dm.org/poetic/ember-cli-github-pages?type=dev)
 
-https://david-dm.org/mediapop/ember-viewport/dev-status.svg
-
 Provides a `viewport` service and inserts accurate faux-viewport units into CSS variable `--vh`. View the [demo app](https://mediapop.github.io/ember-viewport/) on mobile.
 
 ```css
