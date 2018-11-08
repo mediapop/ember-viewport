@@ -13,10 +13,17 @@ export default Service.extend({
     }
 
     if(typeof document !== 'undefined' && typeof window !== 'undefined' ){
-      this.resize.on('didResize', updateViewport.bind(this));
+      /**
+       * didResize in the embedded slack browser will fire multiple times and when rotating from landscape to portrait
+       * it will also report the landscape mode height.
+       *
+       * Until we have a strategy of discerning slack from regular safari, use debouncedDidResize.
+       * https://github.com/mediapop/ember-viewport/issues/1
+       */
+      this.resize.on('debouncedDidResize', updateViewport.bind(this));
       updateViewport.call(this);
     }
 
     this._super(...arguments);
   }
-})
+});
