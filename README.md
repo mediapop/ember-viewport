@@ -1,4 +1,5 @@
-# ember-viewport
+@mediapop/ember-viewport
+==============================================================================
 
 *This ember addon is maintained by [Media Pop](https://www.mediapop.co), a software consultancy. Hire us to solve your web application challenges.*
 
@@ -33,23 +34,29 @@ export default Component.create({
 });
 ```
 
-## Installation
 
-* `ember install @mediapop/ember-viewport`
+Installation
+------------------------------------------------------------------------------
 
-## Running
+```
+ember install @mediapop/ember-viewport
+```
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
 
-## Running Tests
+Compatibility
+------------------------------------------------------------------------------
 
-* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
-* `ember test`
-* `ember test --server`
+* Ember.js v3.12 or above
+* Ember CLI v2.13 or above
+* Node.js v10 or above
 
-## Building
+Contributing
+------------------------------------------------------------------------------
 
-* `ember build`
+See the [Contributing](CONTRIBUTING.md) guide for details.
 
-For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
+
+License
+------------------------------------------------------------------------------
+
+This project is licensed under the [MIT License](LICENSE.md).
