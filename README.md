@@ -19,7 +19,7 @@ Provides a `viewport` service and inserts accurate faux-viewport units into CSS 
 
 /* After */
 .full-height {
-  height: calc(--vh * 100);
+  height: calc(var(--vh) * 100);
 }
 ```
 
